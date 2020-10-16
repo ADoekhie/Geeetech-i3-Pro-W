@@ -14,5 +14,10 @@
  Both firmwares tested and functional on my Geeetech i3 Pro W.
  - Compile stock Marlin v1 firmware with Arduino 1.0.2
  - Compile Marlin 1.1.9 with Arduino 1.8.12
- * I used Octoprint to upgrade the firmware of the i3 Pro W, use the hex file **without** bootloader
+ 
+ Make sure to export the binary after compilation
+	> Should be in your Marlin folder (new Arduino version)
+	> Otherwise check %AppData% string mentioned in the output (old Arduino IDE version)
+ 
+ I used Octoprint to upgrade the firmware of the i3 Pro W, use the hex file **without** bootloader
  

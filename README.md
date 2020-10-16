@@ -16,8 +16,8 @@
  - Compile Marlin 1.1.9 with Arduino 1.8.12
  
  Make sure to export the binary after compilation
-	> Should be in your Marlin folder (new Arduino version)
-	> Otherwise check %AppData% string mentioned in the output (old Arduino IDE version)
+	- Should be in your Marlin folder (new Arduino version)
+	- Otherwise check %AppData% string mentioned in the output (old Arduino IDE version)
  
  I used Octoprint to upgrade the firmware of the i3 Pro W, use the hex file **without** bootloader
  

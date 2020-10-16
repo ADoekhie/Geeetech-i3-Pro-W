@@ -10,14 +10,14 @@
 	Y_PROBE_OFFSET_FROM_EXTRUDER
 	DEFAULT_AXIS_STEPS_PER_UNIT   {80,80,2560,93} --> {80,80,400,93} if you are using T8 leads screws for the Z-axis in your printer
 
-## Other
+## Compile
  Both firmwares tested and functional on my Geeetech i3 Pro W.
  - Compile stock Marlin v1 firmware with Arduino 1.0.2
  - Compile Marlin 1.1.9 with Arduino 1.8.12
  
  Make sure to export the binary after compilation
-	- Should be in your Marlin folder (new Arduino version)
-	- Otherwise check %AppData% string mentioned in the output (old Arduino IDE version)
+ - Should be in your Marlin folder (new Arduino version)
+ - Otherwise check %AppData% string mentioned in the output (old Arduino IDE version)
  
  I used Octoprint to upgrade the firmware of the i3 Pro W, use the hex file **without** bootloader
  
